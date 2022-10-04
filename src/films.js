@@ -1,8 +1,8 @@
-// Exercise 1: Get the array of all directors.
+// Exercise 1: Get the array of all directors..
 function getAllDirectors(array) {
-  let directores =  array.map(film=> film.director);
-  console.log("EXERCICE 1 ->", directores);
-  return directores;
+  let directoresArr =  array.map(film=> film.director);
+  console.log("EXERCICE 1 ->", directoresArr);
+  return directoresArr;
 }
 
 // Exercise 2: Get the films of a certain director
